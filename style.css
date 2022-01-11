@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'); 
+
+body{ 
+    background-image: url("./images/bgimg.jpeg"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+ background-color: rgb(236, 104, 225);   
+font-family: 'Josefin Sans', sans-serif;
+ text-align: center;
+
+}
+.title{
+    max-width: 660px;
+    width: 60vw;
+    margin: 50px auto 0;
+}
+.td{
+    border: transparent 2px solid; 
+    border-radius: 0.5rem;
+    background: rgb(72, 3, 94); 
+    box-shadow: 0 5px 15px black; 
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    margin-bottom: 0; 
+
+}   
+H1{ 
+    color: rgb(235, 220, 231);
+    font-size: 40PX;  
+    font-weight: bolder;
+    
+
+}  
+
+.todo{ 
+    text-align: start;
+    justify-content: space-between;
+    word-spacing: 12px; 
+    margin-bottom: 5px; 
+  
+}
+#are{
+    font-size: 18px;   
+  color: bisque;
+    border-color: transparent; 
+    border-bottom-color:bisque ; 
+    background-color: transparent;  
+    word-break: break-all; 
+    word-wrap: break-word ; 
+ 
+} 
+#add , #del ,#save{  
+    margin-left: 10px;
+    font-size: 18px; 
+    justify-content: space-between; 
+    border-color: transparent;
+    border-right-color: black 2px solid;
+    background-color: transparent;  
+    color: bisque; 
+    font-weight: bolder; 
+ 
+  
+} 
+.tablee{      
+   
+    align-items: center;
+border: 2px transparent;   
+    background-color: rgb(235, 220, 231); 
+    color: rgb(72, 3, 94);
+    font-size: 23px;  
+    margin-top: 20px;
+   margin-bottom: 20px;
+   
+   
+} 
+.bt , .dlt{
+    font-size: 13px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:rgb(72, 3, 94); 
+    font-weight: bolder;
+   margin-right: 0px;  
+   border-color: transparent; 
+   background-color: transparent;
+
+  
+} 
+.ite{
+    max-width: 230px;
+    word-wrap: break-word;
+ 
+} 
+#add:hover , #del:hover , #save:hover{
+    color: rgb(72, 3, 94) ; 
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(236, 104, 225);
+    transform: translateX(6px); 
+    transition: 0.05s ease-in-out; 
+    box-shadow: 0 2.8px  2.2px rgba(0, 0, 0, 0.34);
+} 
+.bt:hover , .dlt:hover{  
+    color: rgb(235, 220, 231); 
+   background-color:  rgb(72, 3, 94) ; 
+    transform: translateY(-1px); 
+    transition: 0.1s ease-in-out; 
+}
+.dvv{
+    display: none;
+}
+@media screen and (max-width:600px) {
+   section{
+       display: none;
+   }
+    .divv{
+        display: inline;
+        font-size: 1em;
+        
+    }
+}
