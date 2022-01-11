@@ -108,6 +108,9 @@ border: 2px transparent;
     display: none;
 }
 @media screen and (max-width:600px) {
+    body{
+        height: 100vh;
+    }
    section{
        display: none;
    }
